@@ -10,17 +10,16 @@ npm init -y
 ```json
   "main": "src/javascripts/main.js",
 ```
-```json
-  "scripts": {  
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production --module-bind js=babel-loader",
-    "deploy": "npm run build && firebase deploy"
-  },
+```json  
+"scripts": {
+  "start": "webpack-dev-server --mode development --open",
+  "build": "webpack --mode production --module-bind js=babel-loader",
+  "deploy": "npm run build && firebase deploy"
+},
   ```
 ```json
   "author": "Jonathan Shearon",
-  "license": "MIT"
-}
+  "license": "MIT",
 ```
 
 
